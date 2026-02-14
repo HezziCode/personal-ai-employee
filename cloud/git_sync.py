@@ -81,7 +81,8 @@ class GitSync:
 
         try:
             logger.info("Pulling latest changes from origin...")
-            self.repo.remotes.origin.pull()
+            origin = self.repo.remote('origin')
+            origin.pull()
             logger.info("Pull successful")
             return True
         except Exception as e:
@@ -164,11 +165,12 @@ class GitSync:
                 logger.info("No changes to commit")
 
             # Push to origin
-            if self.repo.remotes.origin.exists():
-                self.repo.remotes.origin.push()
+            try:
+                origin = self.repo.remote('origin')
+                origin.push()
                 logger.info("Pushed to origin")
-            else:
-                logger.warning("No remote 'origin' configured")
+            except Exception as push_error:
+                logger.warning(f"No remote 'origin' configured: {push_error}")
 
             return True
         except Exception as e:
