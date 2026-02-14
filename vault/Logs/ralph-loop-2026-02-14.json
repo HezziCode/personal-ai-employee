@@ -3452,5 +3452,4671 @@
         "actions": []
       }
     ]
+  },
+  {
+    "run": {
+      "started": "2026-02-14T23:26:00.547462",
+      "iterations": 1,
+      "auto_executed": 0,
+      "sent_to_approval": 640,
+      "approved_executed": 0,
+      "failed": 0,
+      "completed": true,
+      "finished": "2026-02-14T23:26:02.612811"
+    },
+    "iterations": [
+      {
+        "iteration": 1,
+        "timestamp": "2026-02-14T23:26:00.547708",
+        "actions": [
+          {
+            "file": "EMAIL_20260214_165013_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165013_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165014_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165015_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165016_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165016_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165017_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165513_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165514_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165514_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165516_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165516_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165517_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165517_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165518_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_165519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170015_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170015_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170015_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170016_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170016_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170016_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170017_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170017_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170018_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170514_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170514_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170515_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170515_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170516_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170516_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170516_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_170517_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171015_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171015_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171016_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171017_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171017_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171018_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171018_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171517_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171517_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171518_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171519_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171520_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171521_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171521_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_171522_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172026_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172026_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172027_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172028_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172028_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172029_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172029_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172030_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172522_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172522_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172522_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172523_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172523_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172523_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172524_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172525_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_172526_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173021_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173022_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173022_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173023_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173023_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173024_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173024_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173025_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173026_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173514_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173515_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173515_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173516_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173516_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173518_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173518_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_173519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174023_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174024_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174024_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174025_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174025_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174026_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174026_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174027_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174522_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174522_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174522_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174523_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174523_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174524_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174524_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_174525_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175014_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175014_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175015_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175015_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175016_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175016_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175016_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175017_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175526_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175527_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175527_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175528_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175528_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175529_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175529_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_175530_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180021_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180022_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180023_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180024_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180024_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180025_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180026_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180516_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180517_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180517_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180518_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180518_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180518_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_180520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181017_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181018_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181018_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181019_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181019_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181020_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181020_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181514_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181515_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181515_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181516_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181516_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181517_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181518_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181518_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_181519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182014_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182014_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182015_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182015_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182016_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182016_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182017_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182716_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182717_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182718_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182719_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182720_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182720_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182721_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182723_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_182725_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183017_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183017_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183018_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183019_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183019_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183020_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183512_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183513_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183513_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183514_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183514_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183515_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183515_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183515_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_183516_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184012_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184013_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184013_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184014_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184014_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184014_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184015_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184015_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184016_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184513_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184514_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184514_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184515_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184515_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184516_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184516_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_184517_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185318_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185318_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185319_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185319_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185320_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185320_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185321_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185322_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185515_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185515_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185516_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185517_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185517_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185517_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_185520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190015_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190015_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190016_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190017_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190017_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190017_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190018_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190515_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190515_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190516_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190516_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190517_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190517_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190517_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_190518_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191017_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191018_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191019_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191518_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191519_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191519_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191520_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191520_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191520_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191521_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191521_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_191522_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192033_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192034_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192034_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192035_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192035_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192035_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192036_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192037_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192038_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192520_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192521_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192521_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192522_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192522_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192523_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192523_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_192524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193016_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193018_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193018_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193517_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193517_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193518_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193518_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193519_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193519_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_193521_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194023_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194023_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194023_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194024_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194024_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194025_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194025_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194025_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194026_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194524_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194524_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194525_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194526_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194526_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194526_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194527_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_194528_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195017_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195017_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195018_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195019_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195019_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195541_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195542_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195544_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195545_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195547_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195549_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195553_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195555_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195557_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_195601_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200024_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200027_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200027_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200028_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200028_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200029_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200029_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200029_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200030_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200527_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200527_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200528_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200529_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200530_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200530_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200530_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_200531_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201111_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201112_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201113_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201114_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201115_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201116_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201116_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201117_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201118_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201119_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201521_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201522_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201525_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201525_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201526_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201526_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_201527_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202043_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202044_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202044_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202045_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202045_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202046_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202046_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202047_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202048_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202521_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202521_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202522_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202523_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202523_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202523_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_202525_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203018_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203018_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203019_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203020_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203020_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203020_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203517_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203518_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203518_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203519_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203519_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203519_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203520_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_203521_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204046_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204046_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204047_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204048_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204048_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204049_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204049_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204050_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204523_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204523_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204524_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204525_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204525_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204526_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204527_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_204528_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205027_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205028_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205028_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205029_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205029_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205029_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205030_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205030_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205031_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205524_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205524_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205525_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205525_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205526_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205526_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205527_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_205528_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210019_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210019_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210020_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210021_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210022_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210023_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210516_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210516_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210517_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210517_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210518_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210518_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_210520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211017_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211021_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211517_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211517_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211517_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211518_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211518_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211519_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211519_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_211520_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214049_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214050_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214050_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214051_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214051_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214052_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214052_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214053_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214520_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214520_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214521_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214522_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214522_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214523_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214523_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_214524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215016_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215018_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215019_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215019_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215022_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215023_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215025_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215026_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215527_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215528_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215528_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215530_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215530_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215531_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215532_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215532_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_215533_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220016_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220018_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220019_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220545_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220546_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220546_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220547_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220547_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220548_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220548_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_220549_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221029_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221030_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221031_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221032_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221032_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221033_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221033_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221034_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221519_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221520_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221520_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221521_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221521_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221522_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221522_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221523_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_221524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222103_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222105_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222105_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222106_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222107_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222107_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222108_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222108_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222109_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222110_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222537_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222538_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222538_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222539_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222539_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222540_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222540_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222541_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_222542_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223016_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223016_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223017_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223018_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223018_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223019_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223515_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223516_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223516_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223517_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223517_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223518_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223518_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223518_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_223519_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224019_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224019_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224020_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224021_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224022_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224023_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224523_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224530_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224535_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224537_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224538_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224539_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224540_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224540_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_224541_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225017_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225018_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225018_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225019_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225019_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225020_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225020_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225518_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225519_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225519_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225520_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225520_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225521_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225522_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225522_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_225523_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230018_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230018_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230019_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230020_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230020_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230021_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230021_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230520_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230521_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230521_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230522_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230522_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230523_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230523_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_230524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231025_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231026_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231027_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231028_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231031_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231032_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231033_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231034_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231518_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231519_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231519_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231520_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231522_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231523_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231523_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231525_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_231526_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232018_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232019_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232019_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232020_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232020_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232021_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232021_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232022_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232023_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232527_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232528_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232528_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232529_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232529_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232530_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232530_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232531_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_232532_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "run": {
+      "started": "2026-02-14T23:30:37.983483",
+      "iterations": 1,
+      "auto_executed": 0,
+      "sent_to_approval": 8,
+      "approved_executed": 0,
+      "failed": 0,
+      "completed": true,
+      "finished": "2026-02-14T23:30:37.998268"
+    },
+    "iterations": [
+      {
+        "iteration": 1,
+        "timestamp": "2026-02-14T23:30:37.984012",
+        "actions": [
+          {
+            "file": "EMAIL_20260214_233015_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233015_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233016_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233017_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233017_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233017_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233018_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233019_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "run": {
+      "started": "2026-02-14T23:38:18.385154",
+      "iterations": 1,
+      "auto_executed": 0,
+      "sent_to_approval": 10,
+      "approved_executed": 0,
+      "failed": 0,
+      "completed": true,
+      "finished": "2026-02-14T23:38:18.406026"
+    },
+    "iterations": [
+      {
+        "iteration": 1,
+        "timestamp": "2026-02-14T23:38:18.385456",
+        "actions": [
+          {
+            "file": "EMAIL_20260214_233521_Final Call PPIs Cash Reward.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233521_Your Chatbase AI Agent now ans.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233522_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233523_New sign-in detected for your.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233523_Security alert.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233524_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233524_shahabuddin135 invited you to.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233524_Your OpenAI code is 247140.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233525_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          },
+          {
+            "file": "EMAIL_20260214_233526_Re openaiopenai-agents-pyth.md",
+            "type": "email",
+            "priority": "normal",
+            "route": "needs_approval",
+            "result": "sent_to_approval"
+          }
+        ]
+      }
+    ]
   }
 ]
