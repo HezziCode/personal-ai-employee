@@ -1,0 +1,7 @@
+[command]
+name = "linkedin-post"
+description = "Generate LinkedIn post draft and save in vault"
+version = "1.0.0"
+
+[command.args]
+topic = { type = "string", description = "Topic for the LinkedIn post", required = false }

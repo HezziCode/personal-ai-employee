@@ -1,0 +1,355 @@
+"""
+Orchestrator - Master Process for AI Employee
+Coordinates watchers, monitors folders, and triggers Claude Code
+
+This is the brain that ties everything together.
+"""
+
+import os
+import sys
+import time
+import json
+import subprocess
+from pathlib import Path
+from datetime import datetime
+import logging
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger('Orchestrator')
+
+
+class Orchestrator:
+    """
+    Master orchestrator for the AI Employee system
+
+    Responsibilities:
+    1. Monitor Needs_Action folder for new items
+    2. Trigger Claude Code to process items
+    3. Monitor Approved folder and execute actions
+    4. Update Dashboard
+    """
+
+    def __init__(self, vault_path: str):
+        self.vault_path = Path(vault_path)
+
+        # Key folders
+        self.needs_action = self.vault_path / 'Needs_Action'
+        self.pending_approval = self.vault_path / 'Pending_Approval'
+        self.approved = self.vault_path / 'Approved'
+        self.rejected = self.vault_path / 'Rejected'
+        self.done = self.vault_path / 'Done'
+        self.plans = self.vault_path / 'Plans'
+        self.logs = self.vault_path / 'Logs'
+
+        # Track processed items
+        self.processed_items = set()
+        self.check_interval = 30  # seconds
+
+        # Ensure all folders exist
+        for folder in [self.needs_action, self.pending_approval,
+                       self.approved, self.rejected, self.done,
+                       self.plans, self.logs]:
+            folder.mkdir(parents=True, exist_ok=True)
+
+    def get_pending_items(self) -> list:
+        """Get all items in Needs_Action that haven't been processed"""
+        items = []
+        for filepath in self.needs_action.glob('*.md'):
+            if str(filepath) not in self.processed_items:
+                items.append(filepath)
+        return items
+
+    def get_approved_items(self) -> list:
+        """Get all approved items ready for execution"""
+        return list(self.approved.glob('*.md'))
+
+    def trigger_claude(self, item_path: Path):
+        """
+        Trigger Claude Code to process an item
+
+        This creates a prompt and calls Claude Code CLI
+        """
+        logger.info(f"Processing: {item_path.name}")
+
+        # Read the item content
+        content = item_path.read_text()
+
+        # Create prompt for Claude
+        prompt = f"""
+You are an AI Employee assistant. A new item needs your attention.
+
+Read the following item and:
+1. Analyze what action is needed
+2. If it's safe to do automatically, create a plan
+3. If it requires human approval, create an approval request file
+4. Update the Dashboard.md with status
+
+Item to process:
+---
+{content}
+---
+
+Rules from Company Handbook:
+- Payments over $50 need approval
+- Emails to new contacts need approval
+- Always be polite in communications
+- Flag urgent items
+
+After processing:
+1. Create a plan file in /Plans if needed
+2. Create approval request in /Pending_Approval if needed
+3. Update Dashboard.md
+4. Move item to /Done when complete
+"""
+
+        # Log the trigger
+        self.log_action('claude_triggered', {
+            'item': item_path.name,
+            'prompt_length': len(prompt)
+        })
+
+        # In a real implementation, you would call Claude Code here:
+        # subprocess.run(['claude', '--prompt', prompt, '--cwd', str(self.vault_path)])
+
+        # For now, we'll create a simple plan file
+        self._create_plan_for_item(item_path, content)
+
+        # Mark as processed
+        self.processed_items.add(str(item_path))
+
+    def _create_plan_for_item(self, item_path: Path, content: str):
+        """Create a plan file for an item (simplified version)"""
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+
+        # Parse item metadata
+        priority = 'normal'
+        if 'priority: high' in content:
+            priority = 'high'
+
+        item_type = 'unknown'
+        if 'type: email' in content:
+            item_type = 'email'
+        elif 'type: file_drop' in content:
+            item_type = 'file'
+
+        plan_content = f'''---
+created: {datetime.now().isoformat()}
+source_item: {item_path.name}
+item_type: {item_type}
+priority: {priority}
+status: pending
+---
+
+# Plan: Process {item_path.stem}
+
+## Source
+- File: {item_path.name}
+- Type: {item_type}
+- Priority: {priority}
+
+## Analysis
+
+This item was detected by the AI Employee system and requires processing.
+
+## Action Steps
+
+- [ ] Review item contents
+- [ ] Determine appropriate action
+- [ ] Execute or request approval
+- [ ] Mark as complete
+
+## Requires Approval?
+
+Based on Company Handbook rules:
+- [ ] Payment involved? (Check threshold)
+- [ ] New contact? (Need approval)
+- [ ] Sensitive action? (Need approval)
+
+## Notes
+
+Add processing notes here.
+
+---
+*Generated by Orchestrator*
+'''
+
+        plan_path = self.plans / f'PLAN_{timestamp}_{item_path.stem}.md'
+        plan_path.write_text(plan_content)
+        logger.info(f"Created plan: {plan_path.name}")
+
+    def execute_approved_item(self, item_path: Path):
+        """Execute an approved action item"""
+        logger.info(f"Executing approved item: {item_path.name}")
+
+        content = item_path.read_text()
+
+        # Log the execution
+        self.log_action('action_executed', {
+            'item': item_path.name,
+            'status': 'success'
+        })
+
+        # Move to Done
+        done_path = self.done / item_path.name
+        item_path.rename(done_path)
+        logger.info(f"Moved to Done: {item_path.name}")
+
+    def update_dashboard(self):
+        """Update the Dashboard.md with current status"""
+        dashboard_path = self.vault_path / 'Dashboard.md'
+
+        # Count items in each folder
+        needs_action_count = len(list(self.needs_action.glob('*.md')))
+        pending_count = len(list(self.pending_approval.glob('*.md')))
+        approved_count = len(list(self.approved.glob('*.md')))
+        done_count = len(list(self.done.glob('*.md')))
+
+        now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        content = f'''# AI Employee Dashboard
+
+> Last Updated: {now}
+
+## Quick Status
+
+| Category | Count | Action Required |
+|----------|-------|-----------------|
+| Needs Action | {needs_action_count} | {'Yes' if needs_action_count > 0 else 'None'} |
+| Pending Approval | {pending_count} | {'Review required' if pending_count > 0 else 'None'} |
+| Approved (Ready) | {approved_count} | {'Execute' if approved_count > 0 else 'None'} |
+| Done Today | {done_count} | None |
+
+---
+
+## Pending Actions
+
+### Needs Attention (High Priority)
+'''
+
+        # List needs_action items
+        for item in self.needs_action.glob('*.md'):
+            content += f"- [ ] {item.stem}\n"
+
+        if needs_action_count == 0:
+            content += "- [x] All clear!\n"
+
+        content += f'''
+### Awaiting Approval
+'''
+        for item in self.pending_approval.glob('*.md'):
+            content += f"- [ ] {item.stem}\n"
+
+        if pending_count == 0:
+            content += "- [x] No items awaiting approval\n"
+
+        content += f'''
+---
+
+## System Health
+
+- **Orchestrator**: Running
+- **Last Check**: {now}
+- **Watchers**: Check individual watcher logs
+
+---
+
+*This dashboard is automatically updated by your AI Employee*
+'''
+
+        dashboard_path.write_text(content)
+        logger.info("Dashboard updated")
+
+    def log_action(self, action_type: str, details: dict):
+        """Log an action to the daily log file"""
+        today = datetime.now().strftime('%Y-%m-%d')
+        log_file = self.logs / f'{today}.json'
+
+        log_entry = {
+            'timestamp': datetime.now().isoformat(),
+            'component': 'orchestrator',
+            'action_type': action_type,
+            'details': details
+        }
+
+        if log_file.exists():
+            with open(log_file, 'r') as f:
+                logs = json.load(f)
+        else:
+            logs = []
+
+        logs.append(log_entry)
+
+        with open(log_file, 'w') as f:
+            json.dump(logs, f, indent=2)
+
+    def run(self):
+        """Main orchestration loop"""
+        logger.info("Starting Orchestrator")
+        logger.info(f"Vault: {self.vault_path}")
+        logger.info(f"Check interval: {self.check_interval}s")
+
+        try:
+            while True:
+                # 1. Check for new items to process
+                pending = self.get_pending_items()
+                for item in pending:
+                    self.trigger_claude(item)
+
+                # 2. Check for approved items to execute
+                approved = self.get_approved_items()
+                for item in approved:
+                    self.execute_approved_item(item)
+
+                # 3. Update dashboard
+                self.update_dashboard()
+
+                # Wait before next check
+                time.sleep(self.check_interval)
+
+        except KeyboardInterrupt:
+            logger.info("Orchestrator stopped by user")
+        except Exception as e:
+            logger.error(f"Orchestrator error: {e}")
+            self.log_action('error', {'error': str(e)})
+
+
+def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description='AI Employee Orchestrator')
+    parser.add_argument(
+        '--vault',
+        type=str,
+        default='../vault',
+        help='Path to Obsidian vault'
+    )
+    parser.add_argument(
+        '--interval',
+        type=int,
+        default=30,
+        help='Check interval in seconds'
+    )
+
+    args = parser.parse_args()
+
+    # Resolve vault path
+    vault_path = Path(args.vault)
+    if not vault_path.is_absolute():
+        vault_path = Path(__file__).parent / args.vault
+    vault_path = vault_path.resolve()
+
+    if not vault_path.exists():
+        print(f"Error: Vault not found: {vault_path}")
+        sys.exit(1)
+
+    orchestrator = Orchestrator(str(vault_path))
+    orchestrator.check_interval = args.interval
+    orchestrator.run()
+
+
+if __name__ == '__main__':
+    main()

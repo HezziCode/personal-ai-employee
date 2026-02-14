@@ -1,0 +1,20 @@
+# AI Employee - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# File system watching
+watchdog>=3.0.0
+
+# Gmail API (optional - for Gmail watcher)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# WhatsApp automation (optional - for WhatsApp watcher)
+playwright>=1.40.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Process management (optional)
+# pm2 can be installed via npm: npm install -g pm2
