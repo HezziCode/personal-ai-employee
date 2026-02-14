@@ -50,3 +50,13 @@ playwright/.auth/
 
 # Node modules (if using any Node tools)
 node_modules/
+
+# Render & Docker
+.dockerignore
+render.yaml.local
+*.render
+
+# Cloud deployment (keep credentials off remote)
+watchers/credentials.json
+watchers/token.json
+vault/.git/

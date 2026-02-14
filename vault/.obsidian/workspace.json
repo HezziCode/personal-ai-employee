@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "f57384157b380e2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "0467e253a7785b22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3554972100a3e1ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Social_Media/Instagram_Drafts/IG_20260211_051648_behind_the_scenes_of_our_ai_pr.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IG_20260211_051648_behind_the_scenes_of_our_ai_pr"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "926f4a7177d4fe76",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd95c25cb507b2b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "597c4568d4e34dd6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e01c784a1f5af64a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e60545a9a1c59e5c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6927cedeebe98d3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a26f337b590ad80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70986b3d84e492ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Dashboard"
+            }
+          },
+          {
+            "id": "f9aa3ac8c642e8fe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Dashboard"
+            }
+          },
+          {
+            "id": "dd93549e30b4246e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "29301a2db8190834",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "26749dc94579a665",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "597c4568d4e34dd6",
+  "lastOpenFiles": [
+    "Needs_Action/EMAIL_20260211_212524_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212522_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212521_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212520_shahabuddin135 invited you to.md",
+    "Needs_Action/EMAIL_20260211_212519_Your OpenAI code is 247140.md",
+    "Needs_Action/EMAIL_20260211_212518_Security alert.md",
+    "Needs_Action/EMAIL_20260211_212518_New sign-in detected for your.md",
+    "Needs_Action/EMAIL_20260211_212517_New sign-in detected for your.md",
+    "Needs_Action/EMAIL_20260211_212516_Your Chatbase AI Agent now ans.md",
+    "Needs_Action/EMAIL_20260211_212516_Final Call PPIs Cash Reward.md",
+    "Needs_Action/EMAIL_20260211_212033_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212032_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212031_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_212030_shahabuddin135 invited you to.md",
+    "Needs_Action/EMAIL_20260211_212029_Your OpenAI code is 247140.md",
+    "Needs_Action/EMAIL_20260211_212028_Security alert.md",
+    "Needs_Action/EMAIL_20260211_212028_New sign-in detected for your.md",
+    "Needs_Action/EMAIL_20260211_212027_New sign-in detected for your.md",
+    "Needs_Action/EMAIL_20260211_212025_Your Chatbase AI Agent now ans.md",
+    "Needs_Action/EMAIL_20260211_212025_Final Call PPIs Cash Reward.md",
+    "Needs_Action/EMAIL_20260211_205020_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_205019_Re openaiopenai-agents-pyth.md",
+    "Needs_Action/EMAIL_20260211_205019_shahabuddin135 invited you to.md",
+    "Needs_Action/EMAIL_20260211_205018_Your OpenAI code is 247140.md",
+    "Needs_Action/EMAIL_20260211_205017_Security alert.md",
+    "Needs_Action/EMAIL_20260211_205016_New sign-in detected for your.md",
+    "Social_Media/Twitter_Drafts/ai_automation_twitter.md.tmp.3560.1770823724002",
+    "Logs/social_media_20260211.jsonl",
+    "Social_Media/Facebook_Drafts/ai_automation_post.md.tmp.3560.1770821174017",
+    "Logs/2026-02-10.json",
+    "Dashboard.md.tmp.703.1770250836433",
+    "Accounting/Invoice_2026-01_Ali_Khan.md.tmp.703.1770250811294",
+    "Dashboard.md.tmp.703.1770250014196",
+    "Pending_Approval/APPROVAL_20260205_invoice_ali_khan.md.tmp.703.1770249843921",
+    "Inbox/client_invoice_request.txt"
+  ]
+}

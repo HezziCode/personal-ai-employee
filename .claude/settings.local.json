@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 5 python:*)",
+      "Bash(python3 -m pip:*)",
+      "Bash(timeout 5 uv run:*)",
+      "Bash(crontab:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)",
+      "Bash(cd:*)",
+      "Bash(cd /mnt/d/Side\\\\ Projects/gh-hackthone/Hackathon-0 && timeout 180 ~/.local/bin/uv run python scripts/post_twitter_v2.py:*)",
+      "Bash(uv run:*)",
+      "Bash(du:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(for dir in Docker Google Hyper-V Kubernetes WSL WindowsApps)",
+      "Bash(do echo \"=== $dir ===\")",
+      "Bash(done)",
+      "Bash(for dir in DockerDesktop Microsoft \"Package Cache\" Packages SoftwareDistribution obs-studio)",
+      "WebSearch",
+      "mcp__context7__query-docs",
+      "Bash(ls:*)",
+      "Bash(echo:*)",
+      "WebFetch(domain:render.com)"
+    ]
+  }
+}

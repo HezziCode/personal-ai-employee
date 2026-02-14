@@ -2,7 +2,7 @@
 
 > Your Personal AI Employee that runs your business on autopilot. It reads your emails, watches your WhatsApp, posts on socials, manages invoices, and keeps you updated - all while you sleep.
 
-Built for **Panaversity Hackathon 0** | All 3 Tiers Complete: Bronze + Silver + Gold
+Built for **Panaversity Hackathon 0** | All 4 Tiers Complete: Bronze + Silver + Gold + **Platinum**
 
 ---
 
@@ -54,6 +54,14 @@ You approve --> AI sends the invoice via Odoo --> Done. You didn't lift a finger
 - [x] Weekly CEO Briefing generator
 - [x] Social media posting (Twitter, Facebook, Instagram, LinkedIn)
 - [x] Cross-domain integration (everything talks to everything)
+
+### Platinum - 24/7 Cloud Deployment
+- [x] Cloud worker on Render.com (free tier, always alive)
+- [x] FastAPI `/health` endpoint + UptimeRobot to prevent spindown
+- [x] Cloud-local split: cloud does email triage + drafting, local does approvals & sends
+- [x] Git-based vault sync (claim-by-move rule to prevent conflicts)
+- [x] Agent modes: `cloud-agent` (draft-only) vs `local-agent` (execute)
+- [x] Deployment via render.yaml or Dockerfile
 
 ---
 
@@ -172,6 +180,124 @@ Hackathon-0/
 **Odoo ERP** - Real accounting integration. Create invoices, track payments, generate revenue reports.
 
 **CEO Briefing** - Weekly automated report showing completed tasks, revenue, bottlenecks, and action items.
+
+---
+
+## Platinum Tier: 24/7 Cloud Deployment
+
+The AI Employee can now run on a cloud server (Render.com) 24/7 while your laptop handles approvals and final actions.
+
+### Architecture: Cloud vs Local Split
+
+```
+CLOUD (Render.com - 24/7):          LOCAL (Your Laptop):
+├── Gmail Watcher                    ├── WhatsApp Handler
+├── Email Drafter                    ├── Approval Reviewer
+├── Social Drafter                   ├── Final Sender
+├── Ralph Loop (draft-only)          ├── Payment Handler
+├── /health endpoint                 └── Dashboard Owner
+└── Git Sync (push/pull vault)               |
+         |                                   |
+         └──── Git Vault Sync ───────────────┘
+              (via GitHub)
+```
+
+### How It Works
+
+1. **Cloud runs constantly**: Monitors emails, creates drafts, syncs vault
+2. **Local approves**: You review drafts when ready, approve via git (move files)
+3. **Git is the messenger**: Changes sync between cloud and local every 5 minutes
+4. **Claim-by-move rule**: Files in `In_Progress/cloud-agent/` belong to cloud; files in `In_Progress/local-agent/` belong to you
+
+### Quick Start: Deploy to Render
+
+#### 1. Connect GitHub Repository
+- Push this code to GitHub
+- Go to https://dashboard.render.com
+- Click "New +" → "Web Service"
+- Connect your GitHub repo
+
+#### 2. Deploy with render.yaml
+```bash
+# Option A: Use render.yaml (automatic)
+# Render reads render.yaml and deploys automatically
+
+# Option B: Manual Configuration
+# Runtime: Python
+# Build Command: pip install -r requirements.txt
+# Start Command: uvicorn cloud.cloud_worker:app --host 0.0.0.0 --port $PORT
+```
+
+#### 3. Set Environment Variables in Render Dashboard
+```
+VAULT_PATH=./vault
+AGENT_MODE=cloud
+DRY_RUN=true
+RALPH_CHECK_INTERVAL=300
+GIT_SYNC_INTERVAL=300
+GMAIL_CHECK_INTERVAL=120
+```
+
+#### 4. Add Secrets in Render Dashboard
+- `GMAIL_CREDENTIALS`: Download from Google Cloud Console, save as base64
+- `GIT_TOKEN`: GitHub personal access token (for vault syncing)
+
+#### 5. Keep Alive with UptimeRobot
+Render's free tier spins down after 15 min of inactivity. Solution: UptimeRobot pings `/health` every 5 minutes.
+
+```bash
+# Sign up (free): https://uptimerobot.com
+# Add Monitor:
+#   URL: https://your-app.onrender.com/health
+#   Interval: 5 minutes
+#   Alert: Email
+```
+
+#### 6. Set Up Git Sync
+```bash
+# On your local laptop:
+cd Hackathon-0
+git remote add cloud https://github.com/YOUR_ORG/Hackathon-0.git
+git pull cloud main  # Get cloud drafts
+```
+
+### Troubleshooting
+
+**Cloud not picking up emails?**
+- Check Render logs: Dashboard → Your App → Logs
+- Verify Gmail credentials are set in environment
+- Check `/health` endpoint responds
+
+**Git sync not working?**
+- Verify `GIT_TOKEN` is set in Render
+- Check vault has `.git/config` with origin remote
+- Run manual test: `python cloud/git_sync.py ./vault cloud-agent`
+
+**WhatsApp not working on cloud?**
+- WhatsApp watchers don't run in cloud (only local)
+- Cloud is email + social drafting only
+
+### Files for Platinum Tier
+
+```
+Hackathon-0/
+├── cloud/                         # New: Cloud worker package
+│   ├── __init__.py
+│   ├── cloud_worker.py            # FastAPI app + background threads
+│   ├── git_sync.py                # Vault sync via Git
+│   └── Dockerfile                 # Docker image (optional)
+│
+├── render.yaml                    # Render deployment blueprint
+│
+├── vault/
+│   ├── In_Progress/
+│   │   ├── cloud-agent/           # Files claimed by cloud
+│   │   └── local-agent/           # Files claimed by local
+│   └── Updates/                   # Cloud writes status updates here
+│
+└── scripts/ralph_loop.py          # Modified for agent_mode
+    (Now supports cloud/local modes)
+```
 
 ---
 

@@ -1,0 +1,42 @@
+services:
+  - type: web
+    name: ai-employee-cloud
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn cloud.cloud_worker:app --host 0.0.0.0 --port $PORT
+
+    # Keep the service alive - Render's free tier spins down after 15 min of inactivity
+    # Solution: /health endpoint responds in < 50ms, UptimeRobot pings every 5 min
+    autoDeploy: true
+
+    # Environment variables
+    envVars:
+      - key: VAULT_PATH
+        value: ./vault
+      - key: AGENT_MODE
+        value: cloud
+      - key: DRY_RUN
+        value: "true"
+      - key: RALPH_CHECK_INTERVAL
+        value: "300"
+      - key: GIT_SYNC_INTERVAL
+        value: "300"
+      - key: GMAIL_CHECK_INTERVAL
+        value: "120"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+
+    # Secrets from Render environment
+    # Note: Store these in Render dashboard - they won't appear in this file
+    envVarSecrets:
+      - key: GMAIL_CREDENTIALS
+        description: "Gmail OAuth credentials (base64-encoded JSON)"
+      - key: GIT_TOKEN
+        description: "GitHub personal access token for vault syncing"
+      - key: GREEN_API_INSTANCE_ID
+        description: "Green API WhatsApp instance (for future use)"
+      - key: GREEN_API_TOKEN
+        description: "Green API token (for future use)"
+
+    plan: free
+    region: us-east-1

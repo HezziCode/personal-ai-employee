@@ -52,10 +52,11 @@ class RalphLoop:
     executes approved items via MCP servers, and loops until done.
     """
 
-    def __init__(self, vault_path: str, max_iterations: int = 10, dry_run: bool = True):
+    def __init__(self, vault_path: str, max_iterations: int = 10, dry_run: bool = True, agent_mode: str = 'local'):
         self.vault_path = Path(vault_path)
         self.max_iterations = max_iterations
         self.dry_run = dry_run
+        self.agent_mode = agent_mode or os.getenv('AGENT_MODE', 'local')
 
         # Vault folders
         self.inbox = self.vault_path / 'Inbox'
@@ -64,10 +65,12 @@ class RalphLoop:
         self.approved = self.vault_path / 'Approved'
         self.done = self.vault_path / 'Done'
         self.logs = self.vault_path / 'Logs'
+        self.in_progress = self.vault_path / 'In_Progress' / (f'{self.agent_mode}-agent' if self.agent_mode else 'local-agent')
+        self.updates = self.vault_path / 'Updates'
 
         # Ensure folders exist
         for folder in [self.inbox, self.needs_action, self.pending_approval,
-                       self.approved, self.done, self.logs]:
+                       self.approved, self.done, self.logs, self.in_progress, self.updates]:
             folder.mkdir(parents=True, exist_ok=True)
 
         # Track what we've processed this session
@@ -81,7 +84,7 @@ class RalphLoop:
         # MCP clients (lazy-loaded)
         self._whatsapp_api = None
 
-        logger.info(f"Ralph Loop initialized | vault={vault_path} | max_iter={max_iterations} | dry_run={dry_run}")
+        logger.info(f"Ralph Loop initialized | vault={vault_path} | max_iter={max_iterations} | dry_run={dry_run} | agent_mode={self.agent_mode}")
 
     # ==================== PHASE 1: SCAN ====================
 
@@ -176,11 +179,17 @@ class RalphLoop:
     # ==================== PHASE 3: EXECUTE ====================
 
     def execute_item(self, item_path: Path, classification: dict) -> bool:
-        """Dispatch to the correct executor based on item type"""
+        """Dispatch to the correct executor based on item type and agent mode"""
         item_type = classification['type']
 
-        logger.info(f"Executing: {item_path.name} (type={item_type}, dry_run={self.dry_run})")
+        logger.info(f"Executing: {item_path.name} (type={item_type}, mode={self.agent_mode}, dry_run={self.dry_run})")
 
+        # Cloud mode: draft-only (never actually send/post)
+        if self.agent_mode == 'cloud':
+            logger.info(f"  [CLOUD MODE] {item_type}: {item_path.name} -> will be drafted, not executed")
+            return True
+
+        # Local mode: execute only if dry_run is False
         if self.dry_run:
             logger.info(f"  [DRY RUN] Would execute {item_type}: {item_path.name}")
             return True
@@ -524,6 +533,7 @@ def main():
     parser.add_argument('--max-iterations', type=int, default=10, help='Max loop iterations (default: 10)')
     parser.add_argument('--dry-run', action='store_true', default=False, help='Dry run mode (no real execution)')
     parser.add_argument('--single-pass', action='store_true', default=False, help='Run once, no looping')
+    parser.add_argument('--agent-mode', type=str, default=None, help='Agent mode: cloud (draft-only) or local (execute). Default from env AGENT_MODE or local')
 
     args = parser.parse_args()
 
@@ -533,11 +543,13 @@ def main():
         sys.exit(1)
 
     max_iter = 1 if args.single_pass else args.max_iterations
+    agent_mode = args.agent_mode or os.getenv('AGENT_MODE', 'local')
 
     loop = RalphLoop(
         vault_path=str(vault),
         max_iterations=max_iter,
-        dry_run=args.dry_run
+        dry_run=args.dry_run,
+        agent_mode=agent_mode
     )
 
     results = loop.run()

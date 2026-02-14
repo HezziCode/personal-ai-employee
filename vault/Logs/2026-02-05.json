@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-02-05T03:43:45.454073",
+    "watcher": "FileWatcher",
+    "action_type": "file_detected",
+    "details": {
+      "original_file": "TEST_20260205_032428.txt",
+      "action_file": "FILE_20260205_034345_TEST_20260205_032428.md",
+      "file_type": "text",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-05T03:43:45.484156",
+    "watcher": "FileWatcher",
+    "action_type": "file_detected",
+    "details": {
+      "original_file": "TEST_20260205_032824.txt",
+      "action_file": "FILE_20260205_034345_TEST_20260205_032824.md",
+      "file_type": "text",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-05T04:07:52.733470",
+    "watcher": "FileWatcher",
+    "action_type": "file_detected",
+    "details": {
+      "original_file": "TEST_20260205_032428.txt",
+      "action_file": "FILE_20260205_040752_TEST_20260205_032428.md",
+      "file_type": "text",
+      "priority": "normal"
+    }
+  },
+  {
+    "timestamp": "2026-02-05T04:07:52.792255",
+    "watcher": "FileWatcher",
+    "action_type": "file_detected",
+    "details": {
+      "original_file": "TEST_20260205_032824.txt",
+      "action_file": "FILE_20260205_040752_TEST_20260205_032824.md",
+      "file_type": "text",
+      "priority": "normal"
+    }
+  }
+]

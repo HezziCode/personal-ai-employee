@@ -11,6 +11,9 @@ dependencies = [
     "google-auth-httplib2>=0.3.0",
     "playwright>=1.58.0",
     "whatsapp-api-client-python>=0.0.53",
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "gitpython>=3.1.0",
 ]
 
 [project.scripts]
