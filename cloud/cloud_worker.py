@@ -75,9 +75,11 @@ logger.info(f"Cloud Worker Config: vault={VAULT_PATH}, agent_mode={AGENT_MODE}, 
 
 
 @app.get("/health")
+@app.head("/health")
 def health():
     """
     Health check endpoint - called by UptimeRobot every 5 minutes to keep Render alive
+    Supports both GET and HEAD requests
     """
     return JSONResponse({
         "status": "alive",
