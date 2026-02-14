@@ -261,6 +261,15 @@ git remote add cloud https://github.com/YOUR_ORG/Hackathon-0.git
 git pull cloud main  # Get cloud drafts
 ```
 
+#### 7. Understand the Workflow
+See **[PLATINUM_WORKFLOW.md](./PLATINUM_WORKFLOW.md)** for detailed explanation of:
+- What's automatic (cloud 24/7)
+- What's manual (your approval decision)
+- What you can schedule (Ralph Loop execution)
+- Full timeline examples
+
+**Quick Version:** Cloud detects emails → You approve → Ralph executes. [See Quick Reference →](./WORKFLOW_QUICK_REFERENCE.md)
+
 ### Troubleshooting
 
 **Cloud not picking up emails?**
