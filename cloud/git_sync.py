@@ -62,11 +62,27 @@ class GitSync:
         logger.info(f"GitSync initialized | agent={agent_name} | vault={vault_path} | dry_run={dry_run}")
 
     def _init_repo(self):
-        """Initialize or open existing git repository"""
+        """Initialize or open existing git repository and configure authenticated remote"""
         try:
             # Check if vault is in a git repo
             self.repo = git.Repo(str(self.vault_path), search_parent_directories=True)
             logger.info(f"Using existing git repo: {self.repo.working_dir}")
+
+            # Configure remote URL with GIT_TOKEN for authenticated push/pull on Render
+            git_token = os.getenv('GIT_TOKEN')
+            git_repo_url = os.getenv('GIT_REPO_URL', 'github.com/HezziCode/personal-ai-employee.git')
+            if git_token:
+                authenticated_url = f"https://x-access-token:{git_token}@{git_repo_url}"
+                try:
+                    origin = self.repo.remote('origin')
+                    origin.set_url(authenticated_url)
+                    logger.info("Configured origin remote with authenticated URL")
+                except ValueError:
+                    self.repo.create_remote('origin', authenticated_url)
+                    logger.info("Created origin remote with authenticated URL")
+            else:
+                logger.warning("GIT_TOKEN not set - git sync will likely fail on cloud")
+
         except git.InvalidGitRepositoryError:
             logger.error("Vault is not in a git repository. Set up git first.")
             self.repo = None

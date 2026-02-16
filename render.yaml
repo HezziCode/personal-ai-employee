@@ -23,6 +23,8 @@ services:
         value: "300"
       - key: GMAIL_CHECK_INTERVAL
         value: "120"
+      - key: GIT_REPO_URL
+        value: "github.com/HezziCode/personal-ai-employee.git"
       - key: PYTHONUNBUFFERED
         value: "1"
 

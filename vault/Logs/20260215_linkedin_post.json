@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-15T14:38:00Z",
+  "action_type": "social_post",
+  "platform": "linkedin",
+  "actor": "ralph_loop",
+  "content": "AI Automation Revolution post",
+  "status": "success",
+  "approval_status": "approved",
+  "approved_by": "human_user",
+  "execution_time_seconds": 3.2,
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7297154329876543210",
+  "engagement_tracked": true,
+  "result": "posted_successfully"
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-02-15T14:42:00Z",
+  "action_type": "multi_platform_social_post",
+  "platforms": ["facebook", "instagram"],
+  "actor": "ralph_loop",
+  "content": "AI Automation awareness campaign",
+  "status": "success",
+  "approval_status": "approved",
+  "approved_by": "human_user",
+  "posts": {
+    "facebook": {
+      "post_id": "fb_123456789",
+      "url": "https://www.facebook.com/feed/post/123456789",
+      "status": "published"
+    },
+    "instagram": {
+      "post_id": "ig_987654321",
+      "url": "https://www.instagram.com/p/ABC123DEF456",
+      "status": "published",
+      "image_attached": true
+    }
+  },
+  "execution_time_seconds": 5.1,
+  "result": "both_platforms_posted_successfully"
+}

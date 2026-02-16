@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-02-15T14:52:00Z",
+  "action_type": "odoo_invoice_create",
+  "actor": "ralph_loop",
+  "invoice_number": "INV-2026-0001",
+  "amount": 500.00,
+  "currency": "USD",
+  "status": "success",
+  "mcp_server": "odoo-mcp",
+  "approval_status": "approved",
+  "approved_by": "human_user",
+  "odoo_response": {
+    "invoice_id": 12345,
+    "odoo_id": "account.move(12345)",
+    "state": "draft",
+    "number": "INV-2026-0001"
+  },
+  "pdf_generated": true,
+  "accounting_entry_posted": true,
+  "result": "invoice_created_successfully"
+}

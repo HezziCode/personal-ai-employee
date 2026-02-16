@@ -20,7 +20,15 @@
       "mcp__context7__query-docs",
       "Bash(ls:*)",
       "Bash(echo:*)",
-      "WebFetch(domain:render.com)"
+      "WebFetch(domain:render.com)",
+      "Bash(curl -s https://personal-ai-employee.onrender.com/health)",
+      "Bash(curl:*)",
+      "Bash(python3 -c:*)",
+      "Bash(python3 /dev/stdin:*)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(git rm:*)",
+      "Bash(git check-ignore:*)"
     ]
   }
 }
